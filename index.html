@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kinene Joseph - CV</title>
+    <style>
+        /* Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: white;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        /* Header Section */
+        header {
+            background: linear-gradient(135deg, #006400, #228B22);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid white;
+            margin: 0 auto 20px;
+            background-color: #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 60px;
+            color: #006400;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .title {
+            font-size: 1.3rem;
+            font-weight: 300;
+            margin-bottom: 20px;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        /* Section Styles */
+        section {
+            padding: 30px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        h2 {
+            color: #006400;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #eee;
+            font-size: 1.5rem;
+        }
+        
+        h3 {
+            color: #333;
+            margin-bottom: 8px;
+            font-size: 1.2rem;
+        }
+        
+        /* About Section */
+        .about p {
+            text-align: justify;
+            font-size: 1.1rem;
+        }
+        
+        /* Experience & Education */
+        .experience-item, .education-item {
+            margin-bottom: 25px;
+        }
+        
+        .date {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 5px;
+        }
+        
+        /* Skills Section */
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .skill {
+            background-color: #e8f5e9;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            color: #006400;
+            border: 1px solid #c8e6c9;
+        }
+        
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header {
+                padding: 30px 20px;
+            }
+            
+            section {
+                padding: 20px;
+            }
+            
+            .contact-info {
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="profile-img">KJ</div>
+            <h1>Kinene Joseph</h1>
+            <div class="title">Software Developer & IT Specialist</div>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span>📍 Kampala, Uganda</span>
+                </div>
+                <div class="contact-item">
+                    <span>📞 +256 700 123 456</span>
+                </div>
+                <div class="contact-item">
+                    <span>✉️ kinene.joseph@example.com</span>
+                </div>
+            </div>
+        </header>
+        
+        <section class="about">
+            <h2>About Me</h2>
+            <p>
+                Passionate and dedicated software developer with 5 years of experience in creating innovative 
+                web and mobile applications. Strong problem-solving skills with expertise in full-stack 
+                development, database management, and cloud technologies. Committed to delivering high-quality 
+                solutions that meet user needs and business objectives. A collaborative team player with 
+                excellent communication skills and a continuous learning mindset.
+            </p>
+        </section>
+        
+        <section class="experience">
+            <h2>Work Experience</h2>
+            
+            <div class="experience-item">
+                <h3>Senior Software Developer</h3>
+                <div class="date">2020 - Present</div>
+                <p>Tech Solutions Uganda Ltd, Kampala</p>
+                <ul>
+                    <li>Led development of 3 major web applications serving over 10,000 users</li>
+                    <li>Mentored junior developers and conducted code reviews</li>
+                    <li>Improved application performance by 40% through optimization techniques</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <h3>Web Developer</h3>
+                <div class="date">2018 - 2020</div>
+                <p>Digital Innovations Africa, Kampala</p>
+                <ul>
+                    <li>Developed responsive websites for clients across various industries</li>
+                    <li>Implemented e-commerce solutions increasing client sales by 25%</li>
+                    <li>Collaborated with designers to create user-friendly interfaces</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section class="education">
+            <h2>Education</h2>
+            
+            <div class="education-item">
+                <h3>Bachelor of Science in Computer Science</h3>
+                <div class="date">2014 - 2018</div>
+                <p>Makerere University, Kampala</p>
+                <p>Graduated with First Class Honors</p>
+            </div>
+            
+            <div class="education-item">
+                <h3>Uganda Advanced Certificate of Education</h3>
+                <div class="date">2012 - 2013</div>
+                <p>St. Mary's College Kisubi, Entebbe</p>
+            </div>
+        </section>
+        
+        <section class="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill">JavaScript</div>
+                <div class="skill">Python</div>
+                <div class="skill">React</div>
+                <div class="skill">Node.js</div>
+                <div class="skill">HTML/CSS</div>
+                <div class="skill">MySQL</div>
+                <div class="skill">MongoDB</div>
+                <div class="skill">Git</div>
+                <div class="skill">AWS</div>
+                <div class="skill">Docker</div>
+                <div class="skill">Agile Methodologies</div>
+                <div class="skill">UI/UX Design</div>
+            </div>
+        </section>
+        
+        <section class="languages">
+            <h2>Languages</h2>
+            <ul>
+                <li>English (Fluent)</li>
+                <li>Luganda (Native)</li>
+                <li>Swahili (Intermediate)</li>
+            </ul>
+        </section>
+        
+        <footer>
+            <p>References available upon request</p>
+            <p>© 2023 Kinene Joseph - All Rights Reserved</p>
+        </footer>
+    </div>
+</body>
+</html>
